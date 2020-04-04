@@ -1,68 +1,35 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
-## Available Scripts
+## Weather-App Tutorial
 
-In the project directory, you can run:
+This is a basic weather app tutorial by [Robert Michael Welan](https://github.com/robwelan).
 
-### `yarn start`
+The main technology used is [React.js](https://reactjs.org/).
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+It uses:
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+- [Air-BNB Linter](https://www.npmjs.com/package/eslint-config-airbnb)
 
-### `yarn test`
+- [axios](https://github.com/axios/axios)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [Beaufort Scale](https://github.com/alterebro/beaufort-scale)
 
-### `yarn build`
+- [locale2](https://github.com/moimikey/locale2)
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [prop-types](https://www.npmjs.com/package/prop-types)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+- [ReactHtmlParser](https://github.com/wrakky/react-html-parser)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [Semantic UI React](https://react.semantic-ui.com/introduction)
 
-### `yarn eject`
+- [Weather Icons](https://github.com/erikflowers/weather-icons) (Found here on npm/yarn: [weather-icons-tmp](https://www.npmjs.com/package/weather-icons-tmp))
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## On Completion
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+You can find a deployed version of this project here:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+[https://weather.creatureoftech.com](https://weather.creatureoftech.com)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+License for Code:
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- MIT Licence
