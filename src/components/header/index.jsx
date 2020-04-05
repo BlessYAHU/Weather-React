@@ -8,7 +8,7 @@ const Header = () => (
             <Menu.Item as="a" header href="https://creatureoftech.com">
                 <div>
                     <div>
-                        <Image className="logo-cot" size="mini" src="https://i1.wp.com/creatureoftech.com/wp-content/uploads/2018/05/rob_welan_100x100.png" />
+                        <Image className="logo-cot" size="mini" src="weather.png" />
                     </div>
                     <div>
                         <span className="title">

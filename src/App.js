@@ -1,21 +1,22 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { Container } from 'semantic-ui-react';
+import './index.css';
+import Header from './components/header';
 
 function App() {
+  const [state, setState]= useState({});
+
   return (
     <div className="App">
       <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Header />
       </header>
+      <main>
+        <Container text>
+          <div className="page-content-container" />
+          <h1>Shalom There!</h1>
+        </Container>
+      </main>
     </div>
   );
 }

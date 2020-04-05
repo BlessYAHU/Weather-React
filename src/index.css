@@ -77,3 +77,8 @@ body, html {
     margin: auto;
   }
 }
+
+.page-content-container {
+  margin-top: 7em;
+  padding-bottom: 3em;
+}
